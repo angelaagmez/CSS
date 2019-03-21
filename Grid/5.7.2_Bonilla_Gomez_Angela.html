@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+    <style>
+.container{
+    border: solid black 2px;
+    display: grid;
+    grid-template-columns: repeat(11, 9%);
+    grid-template-rows: repeat(10,75px); 
+    grid-gap: 3px;
+}
+.content{
+    border: solid black 2px;
+    grid-column: 2 / 8;
+    grid-row: 2 / 3;
+}
+.fail{
+    grid-column: 2 / 4;
+    grid-row: 4 / 8;
+}
+.ok{
+    grid-column: 4 / 6 ;
+    grid-row: 4 / 8 ;
+}
+.cup{
+    grid-column: 6 / 8;
+    grid-row: 4 / 8;
+}
+img{
+    width: 100px;
+}
+.text{
+    grid-column: 10 / 11;
+    grid-row: 5 / 11;
+    padding: 15px;
+}
+.profile{
+    grid-column: 9 / 11;
+    grid-row: 2 / 5;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="content"><h1>CSS Practica 5.7.2 CSS Grids</h1></div>
+    <div class="fail"><img src="fail.png"></div>
+    <div class="ok"><img src="ok.png"></div>
+    <div class="cup"><img src="cup.png"></div>
+    <div class="profile"><img src="profile.png"></div>
+    <div class="text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    </div>
+    
+</body>
+</html>

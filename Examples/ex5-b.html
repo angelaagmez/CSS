@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div{
+                width: 250%;
+                border: 1px solid blue;
+                background-color: cornflowerblue;
+                border-color: blue;
+                text-align: center;
+                margin-left: 10%;
+                border-radius: 3%;
+                color: white;
+            }
+            div.content-box{
+                width: 40%;
+                height: 20%;
+                padding: 5%;
+                box-sizing: content-box;
+            }
+            div.border-box{
+                width: 50%;
+                height: 20%;
+                padding: 5%;
+                box-sizing: border-box;
+                margin-top: 7%;
+            }
+/* El margin-top con porcentaje no es una medida exacta.*/
+/* El border-radius con porcentaje solo se aplica por un lado, pero no redondea del todo y no queda bien.*/
+/* El pading con porcentaje aumenta o disminuye el tamaño de la caja que contiene el texto, las medidas aumentan mucho.*/
+/* El width con porcentaje se modifica junto al tamaño maximo de la pagina.*/
+        </style>
+    </head>
+    <body>
+        <h1>box-sizing property</h1>
+       <div class="content-box">Box with <i>box-sizing: content-box</i></box>
+        </div>
+        <div class="border-box">Box <i>with box-sizing: border-box</i></div>
+    </body>
+</html>

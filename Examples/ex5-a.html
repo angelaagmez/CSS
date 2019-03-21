@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div{
+                width: 250px;
+                border: 1px solid blue;
+                background-color: cornflowerblue;
+                border-color: blue;
+                text-align: center;
+                margin-left: 110px;
+                border-radius: 3px;
+                color: white;
+            }
+            div.content-box{
+                width: 400px;
+                height: 20px;
+                padding: 20px;
+                box-sizing: content-box;
+            }
+            div.border-box{
+                width: 444px;
+                height: 66px;
+                padding: 20px;
+                box-sizing: border-box;
+                margin-top: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>box-sizing property</h1>
+       <div class="content-box">Box with <i>box-sizing: content-box</i></box>
+        </div>
+        <div class="border-box">Box <i>with box-sizing: border-box</i></div>
+    </body>
+</html>

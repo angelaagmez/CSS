@@ -1,0 +1,17 @@
+img {
+    max-width: 350px;
+}
+.ads{
+    margin: 0 auto;
+}
+.ads > img {
+    height: 30px;
+}
+.page{
+    display: flex;
+    flex-flow: column;
+}
+.section{
+    background-color: lightgray;
+    box-shadow: 0px 5px 0px 0px black;
+}

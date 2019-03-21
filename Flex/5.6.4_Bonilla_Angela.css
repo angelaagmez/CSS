@@ -1,0 +1,41 @@
+div.content {
+    padding-top: 100px;
+    margin-top: 0px;
+    background-color:blue;
+    display: flex;
+}
+div.leftbar {
+    margin-top: 50px;
+    display:flex;
+    background-color: red;
+    width: 20%;
+    flex-direction: column;
+    height: 650px;
+}
+    .leftbar div {
+    background-color: yellow;
+    display: flex;
+    width: 84%;
+    height: 100%;
+    flex-flow: row wrap;
+    border: 20px solid red;
+}
+div.main_content {
+    display:flex;
+    background-color: green;
+    width: 80%;
+    height:650px;
+    margin-top: 50px;
+    flex-direction: row;
+}
+
+div.main_content div {
+    background-color: yellow;
+    display: flex;
+    width: 100%;
+    height: 98%;
+    flex-flow: row wrap;
+    border: 10px solid green;
+    align-content: space-between;
+    flex-direction: column-reverse;
+}
